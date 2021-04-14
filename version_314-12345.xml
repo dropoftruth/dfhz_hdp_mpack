@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<repository-version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="version_definition.xsd">
+  <release>
+    <type>STANDARD</type>
+    <stack-id>HDP-3.1.4</stack-id>
+    <version>3.1.4</version>
+    <build>12345</build>
+    <release-notes>http://example.com</release-notes>
+    <display>HDP-3.1.4.0-1234</display>
+    <compatible-with>3.1.[0-4].0</compatible-with>
+  </release>
+  <manifest>
+    <service id="HDFS-3111" name="HDFS" version="3.1.1.1"/>
+    <service id="HIVE-310" name="HIVE" version="3.1.0"/>
+    <service id="PIG-0160" name="PIG" version="0.16.0"/>
+    <service id="TEZ-091" name="TEZ" version="0.9.1"/>
+    <service id="YARN-311" name="YARN" version="3.1.1"/>
+    <service id="MAPREDUCE-311" name="MAPREDUCE2" version="3.1.1"/>
+    <service id="ZOOKEEPER-346" name="ZOOKEEPER" version="3.4.6"/>
+  </manifest>
+  <available-services>
+    <service idref="HDFS-3111"/>
+    <service idref="HIVE-310"/>
+    <service idref="PIG-0160"/>
+    <service idref="TEZ-091"/>
+    <service idref="YARN-311"/>
+    <service idref="MAPREDUCE-311"/>
+    <service idref="ZOOKEEPER-346"/>
+  </available-services>
+  <repository-info>
+    <os family="redhat6">
+      <package-version>3_1_4_0_12345</package-version>
+      <repo>
+        <baseurl>https://makeopensourcegreatagain.com/repos/centos/7/hdp/HDP-3.1.4.0</baseurl>
+        <repoid>HDP-3.1.4</repoid>
+        <reponame>HDP</reponame>
+        <unique>true</unique>
+      </repo>
+      <repo>
+        <baseurl>https://makeopensourcegreatagain.com/repos/centos/7/hdp/HDP-UTILS-1.1.0.22</baseurl>
+        <repoid>HDP-UTILS-1.1.0.20</repoid>
+        <reponame>HDP-UTILS</reponame>
+        <unique>false</unique>
+      </repo>
+    </os>
+  </repository-info>
+</repository-version>
