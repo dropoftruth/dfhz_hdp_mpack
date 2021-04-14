@@ -2,7 +2,7 @@
 <repository-version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="version_definition.xsd">
   <release>
     <type>STANDARD</type>
-    <stack-id>HDP-3.1</stack-id>
+    <stack-id>HDP-3.1.4</stack-id>
     <version>3.1.4</version>
     <build>1234</build>
     <release-notes>http://example.com</release-notes>
