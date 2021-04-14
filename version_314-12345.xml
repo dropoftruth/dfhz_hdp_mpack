@@ -3,7 +3,7 @@
   <release>
     <type>STANDARD</type>
     <stack-id>HDP-3.1.4</stack-id>
-    <version>3.1.4</version>
+    <version>3.1.4.0</version>
     <build>12345</build>
     <release-notes>http://example.com</release-notes>
     <display>HDP-3.1.4.0</display>
